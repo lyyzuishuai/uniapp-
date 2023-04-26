@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "搜索页面",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "shop-list": "/components/common/ShopList"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "lines": "/components/common/Line",
+    "tabbar": "/components/common/Tabbar"
+  }
+}

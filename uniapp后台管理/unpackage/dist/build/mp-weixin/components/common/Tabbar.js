@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/common/Tabbar"],{"1dad":function(t,n,a){"use strict";var c=a("37fd"),e=a.n(c);e.a},"37fd":function(t,n,a){},"536c":function(t,n,a){"use strict";a.r(n);var c=a("f966"),e=a("860e");for(var i in e)["default"].indexOf(i)<0&&function(t){a.d(n,t,(function(){return e[t]}))}(i);a("1dad");var o=a("f0c5"),r=Object(o["a"])(e["default"],c["b"],c["c"],!1,null,"59c0a2a7",null,!1,c["a"],void 0);n["default"]=r.exports},"860e":function(t,n,a){"use strict";a.r(n);var c=a("9df5"),e=a.n(c);for(var i in c)["default"].indexOf(i)<0&&function(t){a.d(n,t,(function(){return c[t]}))}(i);n["default"]=e.a},"9df5":function(t,n,a){"use strict";(function(t){Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var a={props:{cureentPage:{type:String,default:"index"}},data:function(){return{tabbarList:[{pagePath:"index",iconPath:"/static/icon/首页.png",selectedIconPath:"/static/icon/首页 (1).png",text:"首页"},{pagePath:"list",iconPath:"/static/icon/分类 (1).png",selectedIconPath:"/static/icon/分类.png",text:"分类"},{pagePath:"shopcar",iconPath:"/static/icon/购物车空 (1).png",selectedIconPath:"/static/icon/购物车空.png",text:"购物车"},{pagePath:"my",iconPath:"/static/icon/关于我们.png",selectedIconPath:"/static/icon/关于我们 (1).png",text:"我的"}]}},methods:{navigatorTo:function(n){"shopcar"===n||"my"===n?this.navigateTo({url:"../../pages/".concat(n,"/").concat(n),animationType:"fade-in",animationDuration:0}):t.redirectTo({url:"../../pages/".concat(n,"/").concat(n)})}}};n.default=a}).call(this,a("543d")["default"])},f966:function(t,n,a){"use strict";a.d(n,"b",(function(){return c})),a.d(n,"c",(function(){return e})),a.d(n,"a",(function(){}));var c=function(){var t=this.$createElement;this._self._c},e=[]}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/common/Tabbar-create-component',
+    {
+        'components/common/Tabbar-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("536c"))
+        })
+    },
+    [['components/common/Tabbar-create-component']]
+]);

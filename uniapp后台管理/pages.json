@@ -1,0 +1,351 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "荆楚时装",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				// "navigationStyle": "custom",
+				"app-plus": {
+					"scrollIndicator": "none",
+					"titleNView": {
+						"buttons": [
+							{
+								"float": "left",
+								"fontSrc": "/static/iconfont.ttf",
+								"text": "\ue7f5"
+							},
+							{
+								"float": "right",
+								"fontSrc": "/static/iconfont.ttf",
+								"text": "\ue7f3"
+							}
+						]
+					}
+				}
+			}
+		}
+	    ,{
+        "path" : "pages/list/list",
+          "style" :
+          {
+          	"navigationBarBackgroundColor": "#FFFFFF",
+          	"app-plus": {
+          		"scrollIndicator": "none",
+          		"titleNView": {
+          			"searchInput": {
+          				"placeholder": "请输入关键字",
+          				"disabled": true,
+          				"align": "left",
+          				"borderRadius": "15px",
+          				"backgroundColor": "#F7F7F7",
+          				"placeholderColor": "#B3B3B3"
+          			}
+          		}
+          	}
+          }   
+        }
+        ,{
+            "path" : "pages/shopcar/shopcar",
+            "style" :                                                                                    
+            {
+				"app-plus": {
+					"titleNView": false ,
+					"scrollIndicator": "none"
+				}
+            }
+            
+        }
+		,{	
+			"path" : "pages/my/my",
+			"style" :                             
+			{
+				"app-plus": {
+					"titleNView": false ,
+					"scrollIndicator": "none"
+				}
+			}
+		}
+		
+        ,{
+            "path" : "components/index/IndexSwuiper",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "公共轮播图",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+  
+        ,{
+            "path" : "components/index/Recommend",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "推荐",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "components/common/Card",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "卡片",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜索页面",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					"scrollIndicator": "none",
+					"titleNView": {
+						"searchInput": {
+							"placeholder": "nike",
+							"disabled": false,
+							"align": "left",
+							"autoFocus": true,
+							"borderRadius": "15px",
+							"backgroundColor": "#F7F7F7",
+							"placeholderColor": "#B3B3B3"
+						},
+						"buttons": [
+							{
+								"float": "right",
+								"color": "#636263",
+								"text": "搜索",
+								"fontSize": "16px",
+								"width":"60px" 
+							}
+						]
+					}
+				}
+              
+            }
+            
+        }
+        ,{
+         "path" : "pages/search-list/search-list",
+         "style" :
+          {
+            "navigationBarTitleText": "搜索结果页面",
+         	"navigationBarBackgroundColor": "#FFFFFF",
+         	"app-plus": {
+         		"scrollIndicator": "none",
+         		"titleNView": {	
+         			"searchInput": {
+         				"placeholder": "nike",
+         				"disabled": true,
+         				"align": "left",
+         				"borderRadius": "15px",
+         				"backgroundColor": "#F7F7F7",
+         				"placeholderColor": "#B3B3B3"
+         			},
+         			"buttons": [
+         				{
+         					"float": "right",
+         					"color": "#636263",
+         					"text": "删选",
+         					"fontSize": "16px",
+         					"width":"60px" 
+         				}
+         			]
+         		}
+         	},
+			 "h5": {
+				"titleNView": {
+				  // "titleText": "搜索结果",
+				  "searchInput": {
+					"placeholder": "nike",
+					"disabled": true,
+					"align": "left",
+					"borderRadius": "15px",
+					"backgroundColor": "#F7F7F7",
+					"placeholderColor": "#B3B3B3"
+				  }
+				}
+			  }
+         }   
+        }
+		,{
+		    "path" : "pages/details/details",
+		    "style" : {
+			"navigationBarTitleText": "商品详情",
+			"app-plus":{
+				"scrollIndicator": "none",
+				"titleNView":{
+					"type":"transparent",
+					"buttons":[
+						{
+							"type":"menu"
+						},
+						{
+							"type":"share"
+						}
+					]
+				}
+			}
+		}
+	}
+	    ,{
+            "path" : "pages/my-config/my-config",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "设置"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my-path-list/my-path-list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my-add-path/my-add-path",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新增地址",
+                "enablePullDownRefresh": false,
+				"app-plus": {
+					"scrollIndicator": "none",
+					"titleNView": {
+						"buttons": [
+							{
+								"float": "right",
+								"color": "#636263",
+								"text": "保存",
+								"fontSize": "16px",
+								"width":"60px" 
+							}
+						]
+					}
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/my-order/my-order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的订单",
+				"backgroundColor": "#FFFFFF"
+            }
+            
+        }
+        ,{
+            "path" : "pages/confirm-order/confirm-order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "确认订单",
+                "backgroundColor": "#FFFFFF"
+            }
+            
+        }
+        ,{
+            "path" : "pages/payment/payment",
+            "style" :                                                                                    
+            {
+               "app-plus": {
+               	"titleNView": false,
+				"scrollIndicator": "none"
+               }
+            }
+            
+        }
+        ,{
+            "path" : "pages/payment-success/payment-success",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "支付成功页面",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+               "app-plus": {
+				"titleNView": false,
+               "scrollIndicator": "none"
+               }
+            }
+            
+        }
+        ,{
+            "path" : "pages/login-tel/login-tel",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "输入手机号",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login-code/login-code",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "验证码登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#636263",
+		"selectedColor": "#ff4c84",
+		// "spacing":"8px",
+		"list": [			
+			{
+				// "pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/icon/首页.png",
+				"selectedIconPath": "static/icon/首页 (1).png"
+			},
+			{
+				// "pagePath": "pages/list/list",
+				"text": "分类",
+				"iconPath": "static/icon/分类 (1).png",
+				"selectedIconPath": "static/icon/分类.png"
+			},
+			{
+				// "pagePath": "pages/shopcar/shopcar",
+				"text": "购物车",
+				"iconPath": "static/icon/购物车空 (1).png",
+				"selectedIconPath": "static/icon/购物车空.png"
+			},
+			{
+				// "pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/icon/关于我们.png",
+				"selectedIconPath": "static/icon/关于我们 (1).png"
+				
+			}
+		]
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+
+}

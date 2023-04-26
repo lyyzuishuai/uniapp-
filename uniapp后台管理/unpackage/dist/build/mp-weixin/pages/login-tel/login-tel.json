@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "输入手机号",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "lines": "/components/common/Line"
+  }
+}

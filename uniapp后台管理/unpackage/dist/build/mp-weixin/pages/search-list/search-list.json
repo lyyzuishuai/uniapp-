@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "搜索结果页面",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "shop-list": "/components/common/ShopList"
+  }
+}

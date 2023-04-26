@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "我的订单",
+  "backgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "lines": "/components/common/Line",
+    "order-list": "/components/order/order-list"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "搜索页面",
+  "navigationBarBackgroundColor": "#FFFFFF",
+  "usingComponents": {
+    "lines": "/components/common/Line"
+  }
+}

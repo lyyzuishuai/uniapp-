@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "iconfont";/* Project id 3962482 */
+  src: url('/static/icons/iconfont.woff2?t=1680245203976') format('woff2'),
+    url('/static/icons/iconfont.woff?t=1680245203976') format('woff'),
+    url('/static/icons/iconfont.ttf?t=1680245203976') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-weibo:before {
+  content: "\e63e";
+}
+
+.icon-qq:before {
+  content: "\e680";
+}
+
+.icon-weibo1:before {
+  content: "\e666";
+}
+
+.icon-QQ:before {
+  content: "\e667";
+}
+
+.icon-weixin:before {
+  content: "\e607";
+}
+
+.icon-xiaoxi:before {
+  content: "\e7f3";
+}
+
+.icon-xiaoxi-copy:before {
+  content: "\e7f4";
+}
+
+.icon-shouye1:before {
+  content: "\e630";
+}
+
+.icon-icon:before {
+  content: "\e6a0";
+}
+
+.icon-shouye1-copy:before {
+  content: "\e748";
+}
+
+.icon-icon-copy:before {
+  content: "\e749";
+}
+
+.icon-xiajiantou:before {
+  content: "\e62a";
+}
+
+.icon-shangjiantou:before {
+  content: "\e61d";
+}
+
+.icon-shangjiantou-copy:before {
+  content: "\e73f";
+}
+
+.icon-xiajiantou-copy:before {
+  content: "\e740";
+}
+
+.icon-fangdajing-copy:before {
+  content: "\e741";
+}
+
+.icon-fangdajing-copy-copy:before {
+  content: "\e7f5";
+}
+
+.icon-fangdajing-copy1:before {
+  content: "\e74a";
+}
+
+.icon-gouwuche-copy:before {
+  content: "\e73e";
+}
+
+.icon-gouwuche:before {
+  content: "\e73d";
+}
+
+.icon-yonghuguanli_huaban:before {
+  content: "\e62d";
+}
+
+.icon-yonghuguanli_huaban-copy:before {
+  content: "\e744";
+}
+
+.icon-duanxin:before {
+  content: "\e647";
+}
+
+.icon-fuzhi:before {
+  content: "\e656";
+}
+
+.icon-youji:before {
+  content: "\e675";
+}
+
+.icon-shouye:before {
+  content: "\e6cb";
+}
+
+.icon-tixing:before {
+  content: "\e6cc";
+}
+
+.icon-dangdi:before {
+  content: "\e6d7";
+}
+
+.icon-duanxin-copy:before {
+  content: "\e742";
+}
+
+.icon-youji-copy:before {
+  content: "\e743";
+}
+
+.icon-fuzhi-copy:before {
+  content: "\e745";
+}
+
+.icon-shouye-copy:before {
+  content: "\e746";
+}
+
+.icon-tixing-copy:before {
+  content: "\e747";
+}
+
